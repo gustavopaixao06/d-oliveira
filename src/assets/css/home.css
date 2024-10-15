@@ -1,0 +1,252 @@
+.primeiraImg {
+    position: relative; /* Define a posição relativa para que o conteúdo interno possa ser posicionado */
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.primeiraImg img{
+    width: 100%;
+    height: auto; /* Garante que a imagem ocupe a largura total da div */
+    display: block;
+}
+
+.primeiraImg h1{
+    position: absolute;
+    color: white; 
+    text-align: center; 
+    width: 100%; 
+    padding: 0 2vw;
+}
+
+.primeiraImg h1 {
+    top: 35vw; 
+    font-size: 2vw; 
+    font-weight: bold;
+}
+
+.primeiraImg p {
+    top: 40vw; 
+    font-size: 1vw;
+}
+
+.segunda-sessao{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.quemSomos-home {
+    margin-left: 3vw;
+    margin-top: 8vw;
+}
+
+.quemSomos-home h1, h2{
+    font-size: 2vw;
+    width: 40vw;
+}
+
+.quemSomos-home h1{
+    color: #D69B45CC;
+    margin-bottom: 1vw;
+}
+
+.quemSomos-home h2{
+    color:#C5782B;
+}
+
+.quemSomos-home p{
+    margin-top: 2vw;
+    color:black;
+    width: 40vw;
+    font-size: 1vw;
+    transform: translate(-2vw);
+}
+
+.quemSomos-img {
+    display: flex;
+    margin-top: 6vw;
+}
+
+#img1{
+    width: 30vw;
+}
+
+.parte2-img {
+    margin-left: 3vw;
+}
+
+.parte2-img img{
+    width: 21.5vw;
+}
+
+#img3{
+    margin-top: 2vw;
+}
+
+.terceira-sessao{
+    width: 100%;
+    height: auto;
+}
+
+.carrossel{
+    display: flex;
+    margin-top: 8vw;
+}
+
+.carrossel img{
+    width: 20vw;
+    margin-left: 3vw;
+}
+
+.quarta-sessao {
+    width: 100%;
+    margin-top: 5vw;
+    background-color: #201810E5;
+    height: 30vw;
+}
+
+.porqueEscolher h1{
+    text-align: center;
+    color:#F1E9D0CC;
+    font-size: 2vw;
+    transform: translateY(4vw);
+}
+
+.conjunto {
+    margin-top: 7vw;
+    display: flex;
+}
+
+.projetos {
+    margin-left: 5vw;
+    width: 25vw;
+    text-align: center;
+}
+
+.projetos img{
+    width: 4vw;
+    margin-bottom: 3vw;
+}
+
+.projetos h3{
+    color: #F1E9D0CC;
+    font-size: 1.7vw;
+}
+
+.projetos h4{
+    color: #F1E9D0CC;
+    font-size: 1.4vw;
+    font-weight: lighter;
+}
+
+
+.cumprimento {
+    margin-left: 6.5vw;
+    width: 25vw;
+    text-align: center;
+}
+
+.cumprimento img{
+    width: 4vw;
+    margin-bottom: 3vw;
+}
+
+.cumprimento h3{
+    color: #F1E9D0CC;
+    font-size: 1.7vw;
+}
+
+.cumprimento h4{
+    color: #F1E9D0CC;
+    font-size: 1.4vw;
+    font-weight: lighter;
+}
+
+.qualidade {
+    margin-left: 6.5vw;
+    width: 25vw;
+    text-align: center;
+}
+
+.qualidade img{
+    width: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+
+.qualidade h3{
+    color: #F1E9D0CC;
+    font-size: 1.7vw;
+}
+
+.qualidade h4{
+    color: #F1E9D0CC;
+    font-size: 1.4vw;
+    font-weight: lighter;
+}
+
+.quinta-sessao {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.restaurante {
+    margin-top: 10vw;
+    margin-bottom: 3vw;
+    border: 1.5px solid #C5782B;
+    width: 51.5vw;
+    height: 36.5vw;
+    border-radius: 3vw;
+    transform: translateX(-2vw);
+}
+
+.restaurante img{
+    width: 50vw;
+    margin-top: 1.5vw;
+}
+
+.contato-home{
+    margin-top: 13vw;
+    margin-left: 2vw;
+}
+
+.contato-home h1, h2{
+    font-size: 2vw;
+    width: 40vw;
+    margin-top: 1vw;
+}
+
+.contato-home h1{
+    color: #D69B45CC;
+}
+
+.contato-home p{
+    color: black;
+    width: 35vw;
+    font-size: 1.5vw;
+    margin-right: 2vw;
+    margin-top: 1.5vw;
+}
+
+.contato-home h2{
+    color: #C5782B;
+}
+
+.botao button {
+    margin-top: 3vw;
+    background-color:hsl(37, 64%, 59%);
+    border-radius: 1vw;
+    border: none;
+    padding: 0.8vw 4vw;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5vw;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.botao button:hover {
+
+    transform: scale(1.1);
+}

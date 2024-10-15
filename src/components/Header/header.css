@@ -1,0 +1,39 @@
+header {
+    position: fixed; /* Faz com que o header fique fixo no topo da tela */
+    top: 0;
+    width: 100%;
+    z-index: 10; /* Garante que o header fique acima dos outros elementos */
+}
+
+.center{
+    display: flex;
+    width: 55vw;
+    margin: auto;
+    margin-top: 3vw;
+    height: 5vw;
+    background-color: rgba(255, 255, 255, 0.119); /* Torna o fundo um pouco transparente, se desejar */
+    border-radius: 5vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: add some shadow */
+}
+
+.logo img{
+    width: 4vw;
+    margin-left: 3vw;
+    margin-top: 1vw;
+}
+
+.menu-desktop a {
+    text-decoration: none;
+    position: relative;
+    color: white;
+}
+
+.menu-desktop li {
+    display: inline-block;
+    font-size: 1.4vw;
+    margin-right: 3vw;
+    margin-top: 0.8vw;
+    margin-top: 1.5vw;
+    transform: translateX(2vw);
+}
+
